@@ -50,7 +50,7 @@
   width: 500px;
   color: #1a2f4c;
 }
-                            /* section-2  */
+/* section-2  */
 
 .header-bottom {
   background-color: white;
@@ -104,7 +104,7 @@
 .panel-left {
   float: left;
 }
-                                 /* section-3 */
+/* section-3 */
 
 .panel-2 {
   background-image: url(Images/Bglightpurple.png);
@@ -119,7 +119,7 @@
   row-gap: 36px;
   color: #335269;
 }
-                               /* section-4 */  
+/* section-4 */
 
 .panel-3 {
   background-color: #ffffff;
@@ -144,7 +144,7 @@
   height: 27px;
   text-align: center;
 }
-                            /* section-5 */
+/* section-5 */
 .panel-4 {
   background-color: #ffffff;
 }
@@ -158,7 +158,7 @@
   color: #335269;
   padding: 42px 0px;
 }
-                              /* section-6 */
+/* section-6 */
 
 .panel-5 {
   background-color: #f3f7ff;
@@ -169,26 +169,26 @@
 }
 
 .table-1 {
-  box-shadow: 5px 0px 8px 1px #333333;
-  margin: 87px 54px;
-  padding: 11px;
+  box-shadow: 8px -8px 9px 1px #333333;
+  margin: 85px 76px;
   border-radius: 11px;
+  height: 440px;
   background-color: #ffffff;
 }
 
 .table-1 td,
 tr,
 th {
-  padding: 4px 77px;
+  padding: 8px 69px;
   background-color: #ffffff;
 }
 .table-1 th {
   color: #1f5fd3;
 }
-                             /* section-7 */
+/* section-7 */
 
 .panel-6 {
-  height: 342px;
+  height: 363px;
   width: 100%;
   background-image: url(Images/Map.png);
 }
@@ -201,10 +201,10 @@ th {
   text-align: center;
   color: white;
 }
-                          /* section footer is start */
+/* section footer is start */
 .footer {
   background-image: url(Images/Footerbg.png);
-  height: 600px;
+  height: 542px;
   width: 100%;
   background-color: #edf0f4;
 }
@@ -218,8 +218,8 @@ th {
 .footer-1 {
   display: flex;
   gap: 107px;
-  border-bottom: 1px solid;
-  color: #34526a;
+  padding: 16px;
+  border-bottom: 1px solid #e3e5e8;
 }
 .footer-2 ul {
   gap: 10px;
