@@ -11,9 +11,9 @@
 .header-top a {
   text-decoration: none;
 }
+
 .left a {
   color: black;
-  font-size: 20px;
 }
 .navbar ul {
   display: flex;
@@ -225,8 +225,17 @@ th {
   padding: 16px;
   border-bottom: 1px solid #e3e5e8;
 }
-.footer-2 ul {
-  gap: 10px;
+.footer-2 a {
+  text-decoration: none;
+  color: #34526a;
+}
+.footer-3 a {
+  text-decoration: none;
+  color: #34526a;
+}
+.footer-4 a {
+  text-decoration: none;
+  color: #34526a;
 }
 .icons-3 {
   display: flex;
