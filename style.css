@@ -1,3 +1,4 @@
+
 .cont {
   width: 1120px;
   margin: 0 auto;
@@ -173,16 +174,16 @@
 
 .table-1 {
   box-shadow: 8px -8px 9px 1px #333333;
-  margin: 85px 76px;
+  margin: 75px 6px;
+  padding: 30px 30px;
   border-radius: 11px;
-  height: 440px;
   background-color: #ffffff;
 }
 
 .table-1 td,
 tr,
 th {
-  padding: 8px 69px;
+  padding: 9px 67px;
   background-color: #ffffff;
 }
 
