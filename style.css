@@ -1,149 +1,203 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* ----------------------------------------------------------- is start -section-1 ---------------------------------------- --
+------------------------------------------------------------------------------------------------------------------------------- */
 .cont {
-  width: 1120px;
+  width: 1072px;
   margin: 0 auto;
 }
 .header-top {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 15px 2px;
+  margin: 16px;
 }
 .header-top a {
   text-decoration: none;
 }
 
-.left a {
-  color: black;
-}
-.navbar ul {
-  display: flex;
-  gap: 9%;
+/* ------------- is start navbar ----------------------
+---------------------------------------------------- */
 
-  height: 45px;
-  align-items: center;
-
-  list-style: none;
-}
 .navbar {
-  background-color: #3f78e0;
-  width: 110%;
-  margin: -17px -153px;
-}
-.navbar a {
-  color: white;
-  padding: 0px 30px;
-  text-decoration: none;
-}
-.header {
   width: 100%;
-  height: 468px;
+  height: 709px;
   background-image: url(Images/Headerimage.jpg);
   background-repeat: no-repeat;
-  background-size: cover;
   background-position: center;
 }
+
+.left a {
+  color: black;
+  font-weight: bold;
+}
+.navbar-1 {
+  background-color: #3f78e0;
+  height: 65px;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-1 ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0;
+  gap: 73px;
+}
+.navbar-1 li {
+  margin-right: 10px;
+  position: relative;
+}
+.navbar-1 a {
+  text-decoration: none;
+
+  color: white;
+}
+.navbar-1 li::before {
+  content: "";
+  position: absolute;
+  left: -29px;
+  top: 20%;
+  transform: translate(-50%);
+  height: 53%;
+  border-left: 2px solid #ffffff;
+}
+
 .Tag {
-  padding: 20px 0;
+  padding: 96px 0;
   width: 535px;
   color: #1a2f4c;
 }
-/* section-2  */
+.header p {
+  line-height: 28px;
+  color: #19354c;
+  font-size: 15px;
+  font-weight: bold;
+}
+.header h1 {
+  font-size: 57px;
+  margin: 0px;
+}
 
 .header-bottom {
   background-color: white;
-  height: 215px;
-  margin: 53px 0px;
-  border-radius: 15px;
+  height: 238px;
+  padding: 0px 80px;
+  font-size: 21px;
 }
-.header-bottom-left {
-  float: left;
-  width: 451px;
-  padding: 16px 69px;
-  color: #5f778a;
-}
-.header-bottom-right {
+
+.bottom-left {
   float: right;
-  width: 381px;
-  padding: 19px 75px;
-  color: #5f778a;
+  width: 391px;
+  color: #4d7ea6;
 }
+.bottom-right {
+  float: left;
+  width: 423px;
+  color: #4d7ea6;
+}
+
+/* --------------------------------------------------  paneal-1  ---------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------ */
 .panel {
   background-color: white;
-  height: 693px;
 }
 .Tag-left {
   float: left;
   color: #5f778a;
 }
 .box-div {
-  border: 10px solid #edeff0;
+  border: 13px solid #edeff0;
   float: right;
-  margin: 40px 0px;
-  margin-bottom: 0px;
+  margin-top: 58px;
 }
 .Tag-right {
-  margin: -31px;
-  padding: 51px 70px;
-  text-align: center;
+  padding: 35px 64px;
   color: #333333;
 }
 .Tag-left p {
-  width: 621px;
+  width: 666px;
+  line-height: 28px;
+  font-size: 17px;
+  color: #4d7ea6;
 }
 .icons button {
-  margin: 28px;
+  margin: 19px 73px;
   background-color: white;
   border: none;
+  font-size: 16px;
+  font-weight: bold;
 }
 .icons-1 button {
-  margin: 28px;
   background-color: white;
   border: none;
+  font-size: 16px;
+  font-weight: bold;
 }
-.panel-left {
-  float: left;
-}
-/* section-3 */
+
+/* - --------------------------------------------------  paneal-2  ---------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------- */
 
 .panel-2 {
   background-image: url(Images/Bglightpurple.png);
   background-position: center;
   background-size: cover;
+  height: 576px;
 }
 
 .grid-container {
   display: grid;
-  grid-template-columns: 265px 242px 241px;
-  gap: 193px;
-  row-gap: 36px;
+  grid-template-columns: 284px 263px 265px;
+  gap: 129px;
+  row-gap: 24px;
   color: #335269;
+  line-height: 26px;
 }
-/* section-4 */
+/* 
+<!-- --------------------------------------------------  paneal-3  ---------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------> */
 
 .panel-3 {
   background-color: #ffffff;
 }
 .sec {
-  height: 611px;
+  align-items: center;
   display: flex;
   border-bottom: #1a2f4c;
 }
 .left-container {
-  padding: 147px 108px;
   color: #425f74;
+  margin-left: 105px;
 }
 .left-container button {
   background-color: #3f78e0;
   color: white;
-  height: 13%;
-  width: 42%;
+  padding: 16px 12px;
+  margin: 17px 0px;
+  padding-right: 55px;
 }
 .line {
   background-color: #f3f7ff;
-  height: 27px;
+  height: 35px;
   text-align: center;
+  line-height: 33px;
 }
-/* section-5 */
+/* <!-- --------------------------------------------------  paneal-4  ---------------------------------------------------------
+-----------------------------------------------------------------------------------------------------> */
 .panel-4 {
   background-color: #ffffff;
 }
@@ -151,26 +205,35 @@
   height: 391px;
 }
 .grid-container-1 {
-  display: grid;
-  grid-template-columns: 294px 286px 294px 295px;
+  display: flex;
+
   color: #335269;
-  padding: 43px 2px;
-  font-size: 20px;
+  padding: 40px 0px;
+
+  line-height: 23px;
+  gap: 53px;
 }
-/* section-6 */
+.grid-item-1 h1 {
+  font-size: 22px;
+}
+.grid-item-1 img {
+  width: 228px;
+}
+
+/* <!-- --------------------------------------------------  paneal-5 // table ---------------------------------------------------------
+--------------------------------------------------------------- -----------------------------> */
 
 .panel-5 {
   background-color: #f3f7ff;
 }
 .sec-2 {
-  height: 620px;
+  height: 562px;
   display: flex;
 }
 
 .table-1 {
-  box-shadow: 8px -8px 9px 1px #333333;
-  margin: 75px 6px;
-  padding: 30px 30px;
+  margin: 60px 51px;
+  padding: 21px 20px;
   border-radius: 11px;
   background-color: #ffffff;
 }
@@ -178,17 +241,19 @@
 .table-1 td,
 tr,
 th {
-  padding: 9px 67px;
+  padding: 8px 39px;
   background-color: #ffffff;
 }
 
 .table-1 th {
   color: #1f5fd3;
+  text-align: justify;
 }
-/* section-7 */
+/* <!-- --------------------------------------------------  paneal-6  ---------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------> */
 
 .panel-6 {
-  height: 363px;
+  height: 234px;
   width: 100%;
   background-image: url(Images/Map.png);
 }
@@ -196,17 +261,19 @@ th {
   text-align: center;
   font-size: 25px;
   color: #1f5fd3;
+  line-height: 0px;
 }
 .Map-btn {
   text-align: center;
   color: white;
 }
-/* section footer is start */
+/* <!------------------------------------------------------------section footer is start---------------------------------------------------
+            ------------------------------------------------------------------------------------------------------------------------> */
 .footer {
   background-image: url(Images/Footerbg.png);
-  height: 542px;
   width: 100%;
   background-color: #edf0f4;
+  padding: 30px 0px;
 }
 .div-1 {
   width: 71px;
@@ -217,32 +284,40 @@ th {
 }
 .footer-1 {
   display: flex;
-  gap: 107px;
-  padding: 16px;
+  gap: 125px;
   border-bottom: 1px solid #e3e5e8;
+  line-height: 37px;
+  height: 340px;
 }
 .footer-2 a {
   text-decoration: none;
-  color: #34526a;
+  color: #4d7ea6;
 }
 .footer-3 a {
   text-decoration: none;
-  color: #34526a;
+  color: #4d7ea6;
 }
 .footer-4 a {
   text-decoration: none;
-  color: #34526a;
+  color: #4d7ea6;
 }
+/* <!------------------------------------------------- footer social media  is start -----------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------> */
 .icons-3 {
   display: flex;
   justify-content: center;
-  gap: 45px;
-  margin: 47px;
+  gap: 33px;
+  margin: 31px;
 }
 .footer-p {
   text-align: center;
+  font-weight: bold;
 }
 .footer span {
   margin: 10px;
   color: #bec3c8;
+  font-weight: bold;
+}
+
+@media screen {
 }
