@@ -7,7 +7,6 @@ body {
   width: 100%;
 }
 
-
 html {
   scroll-behavior: smooth;
 }
@@ -22,7 +21,7 @@ html {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 16px;
+  margin: 16px 0px;
 }
 .header-top a {
   text-decoration: none;
@@ -53,8 +52,6 @@ html {
 .navbar-1 ul {
   list-style: none;
   display: flex;
-  justify-content: flex-start;
-  align-items: center;
   padding: 0;
   gap: 73px;
 }
@@ -70,7 +67,7 @@ html {
 .navbar-1 li::before {
   content: "";
   position: absolute;
-  left: -29px;
+  left: -36px;
   top: 20%;
   transform: translate(-50%);
   height: 53%;
@@ -97,7 +94,7 @@ html {
   background-color: white;
   height: 238px;
   padding: 0px 80px;
-  font-size: 21px;
+  font-size: 18px;
 }
 
 .bottom-left {
@@ -107,7 +104,7 @@ html {
 }
 .bottom-right {
   float: left;
-  width: 423px;
+  width: 386px;
   color: #4d7ea6;
 }
 
@@ -119,6 +116,7 @@ html {
 .Tag-left {
   float: left;
   color: #5f778a;
+  margin-left: 14px;
 }
 .box-div {
   border: 13px solid #edeff0;
@@ -136,7 +134,7 @@ html {
   color: #4d7ea6;
 }
 .icons button {
-  margin: 19px 73px;
+  margin: 19px 63px;
   background-color: white;
   border: none;
   font-size: 16px;
@@ -145,8 +143,9 @@ html {
 .icons-1 button {
   background-color: white;
   border: none;
-  font-size: 16px;
+  font-size: 17px;
   font-weight: bold;
+  margin-left: -7px;
 }
 
 /* - --------------------------------------------------  paneal-2  ---------------------------------------------------------
@@ -157,6 +156,7 @@ html {
   background-position: center;
   background-size: cover;
   height: 576px;
+  background-color: #f2f9ff;
 }
 
 .grid-container {
@@ -227,7 +227,6 @@ html {
   background-color: #f3f7ff;
 }
 .sec-2 {
-  height: 562px;
   display: flex;
 }
 
@@ -243,11 +242,13 @@ tr,
 th {
   padding: 8px 39px;
   background-color: #ffffff;
+  font-weight: bold;
 }
 
 .table-1 th {
-  color: #1f5fd3;
+  color: #005bff;
   text-align: justify;
+  font-weight: unset;
 }
 /* <!-- --------------------------------------------------  paneal-6  ---------------------------------------------------------
 --------------------------------------------------------------------------------------------------------------------------------> */
@@ -291,15 +292,15 @@ th {
 }
 .footer-2 a {
   text-decoration: none;
-  color: #4d7ea6;
+  color: #3b678b;
 }
 .footer-3 a {
   text-decoration: none;
-  color: #4d7ea6;
+  color: #3b678b;
 }
 .footer-4 a {
   text-decoration: none;
-  color: #4d7ea6;
+  color: #3b678b;
 }
 /* <!------------------------------------------------- footer social media  is start -----------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------------------> */
@@ -312,12 +313,17 @@ th {
 .footer-p {
   text-align: center;
   font-weight: bold;
+  color: #828c97;
+  font-size: 12px;
 }
-.footer span {
-  margin: 10px;
-  color: #bec3c8;
-  font-weight: bold;
-}
+
+
+
+
+
+
+
+
 
 @media screen {
 }
