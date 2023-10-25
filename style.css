@@ -75,7 +75,7 @@ a:hover {
   height: 61%;
   border-left: 2px solid #ffffff;
 }
-.navbar-1 li:first-child::before{
+.navbar-1 li:first-child::before {
   border-left: none;
 }
 
@@ -170,7 +170,7 @@ a:hover {
   grid-template-columns: 284px 263px 265px;
   gap: 129px;
   row-gap: 24px;
-  color:#25465f;
+  color: #25465f;
   line-height: 26px;
 }
 /* 
