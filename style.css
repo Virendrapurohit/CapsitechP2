@@ -89,7 +89,7 @@ a:hover {
 }
 .header p {
   line-height: 28px;
-  color: #19354c;
+  color: #25465f;
   font-size: 15px;
   font-weight: bold;
 }
@@ -108,12 +108,12 @@ a:hover {
 .bottom-left {
   float: right;
   width: 391px;
-  color: #4d7ea6;
+  color: #25465f;
 }
 .bottom-right {
   float: left;
   width: 386px;
-  color: #4d7ea6;
+  color: #25465f;
 }
 
 /* --------------------------------------------------  paneal-1  ---------------------------------------------------------
@@ -139,20 +139,18 @@ a:hover {
   width: 666px;
   line-height: 28px;
   font-size: 17px;
-  color: #4d7ea6;
+  color: #25465f;
 }
 .icons button {
   margin: 19px 63px;
   background-color: white;
   border: none;
   font-size: 16px;
-  font-weight: bold;
 }
 .icons-1 button {
   background-color: white;
   border: none;
   font-size: 17px;
-  font-weight: bold;
   margin-left: -7px;
 }
 
@@ -164,7 +162,7 @@ a:hover {
   background-position: center;
   background-size: cover;
   height: 576px;
-  background-color: #f2f9ff;
+  background-color: #f7f8fb;
 }
 
 .grid-container {
@@ -172,7 +170,7 @@ a:hover {
   grid-template-columns: 284px 263px 265px;
   gap: 129px;
   row-gap: 24px;
-  color: #335269;
+  color:#25465f;
   line-height: 26px;
 }
 /* 
@@ -214,10 +212,8 @@ a:hover {
 }
 .grid-container-1 {
   display: flex;
-
-  color: #335269;
+  color: #25465f;
   padding: 40px 0px;
-
   line-height: 23px;
   gap: 53px;
 }
@@ -300,15 +296,15 @@ th {
 }
 .footer-2 a {
   text-decoration: none;
-  color: #3b678b;
+  color: #25465f;
 }
 .footer-3 a {
   text-decoration: none;
-  color: #3b678b;
+  color: #25465f;
 }
 .footer-4 a {
   text-decoration: none;
-  color: #3b678b;
+  color: #25465f;
 }
 /* <!------------------------------------------------- footer social media  is start -----------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------------------> */
@@ -321,7 +317,7 @@ th {
 .footer-p {
   text-align: center;
   font-weight: bold;
-  color: #828c97;
+  color: #8f979d;
   font-size: 12px;
 }
 
