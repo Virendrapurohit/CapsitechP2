@@ -5,6 +5,7 @@ body {
   margin: 0px;
   padding: 0px;
   width: 100%;
+  font-weight: bold;
 }
 
 html {
@@ -62,6 +63,7 @@ html {
 .navbar-1 a {
   text-decoration: none;
   color: white;
+  font-weight: 100;
 }
 a:hover {
   color: #9aa4a7;
@@ -115,7 +117,14 @@ a:hover {
   width: 386px;
   color: #25465f;
 }
-
+.bottom-left p {
+  font-size: 17px;
+  margin-bottom: 37px;
+}
+.bottom-right p {
+  font-size: 17px;
+  margin-bottom: 37px;
+}
 /* --------------------------------------------------  paneal-1  ---------------------------------------------------------
 ------------------------------------------------------------------------------------------------------------------------ */
 .panel {
@@ -127,12 +136,12 @@ a:hover {
   margin-left: 14px;
 }
 .box-div {
-  border: 13px solid #edeff0;
+  border: 16px solid #edeff0;
   float: right;
-  margin-top: 58px;
+  margin-top: 50px;
 }
 .Tag-right {
-  padding: 35px 64px;
+  padding: 35px 48px;
   color: #333333;
 }
 .Tag-left p {
@@ -142,7 +151,7 @@ a:hover {
   color: #25465f;
 }
 .icons button {
-  margin: 19px 63px;
+  margin: 19px 82px;
   background-color: white;
   border: none;
   font-size: 16px;
@@ -196,6 +205,10 @@ a:hover {
   margin: 17px 0px;
   padding-right: 55px;
 }
+.get-btn:hover {
+  background-color: #7396d6;
+  color: #e7e7e7d2;
+}
 .line {
   background-color: #f3f7ff;
   height: 35px;
@@ -215,7 +228,7 @@ a:hover {
   color: #25465f;
   padding: 40px 0px;
   line-height: 23px;
-  gap: 53px;
+  gap: 48px;
 }
 .grid-item-1 h1 {
   font-size: 22px;
@@ -272,6 +285,27 @@ th {
   text-align: center;
   color: white;
 }
+.btn-1 {
+  padding: 16px 31px;
+  margin: 26px 21px;
+  color: white;
+  background-color: #1f5fd3;
+  border: none;
+}
+.btn-2 {
+  padding: 16px 20px;
+  color: white;
+  background-color: #1f5fd3;
+  border: none;
+}
+.btn-1:hover {
+  background-color: #7396d6;
+  color: #e7e7e7d2;
+}
+.btn-2:hover {
+  background-color: #7396d6;
+  color: #e7e7e7d2;
+}
 /* <!------------------------------------------------------------section footer is start---------------------------------------------------
             ------------------------------------------------------------------------------------------------------------------------> */
 .footer {
@@ -298,13 +332,22 @@ th {
   text-decoration: none;
   color: #25465f;
 }
+.footer-2 :hover {
+  color: #edf0f4;
+}
 .footer-3 a {
   text-decoration: none;
   color: #25465f;
 }
+.footer-3 :hover {
+  color: #edf0f4;
+}
 .footer-4 a {
   text-decoration: none;
   color: #25465f;
+}
+.footer-4 :hover {
+  color: #edf0f4;
 }
 /* <!------------------------------------------------- footer social media  is start -----------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------------------> */
@@ -313,6 +356,10 @@ th {
   justify-content: center;
   gap: 27px;
   margin: 31px;
+}
+.icons-3 :hover {
+  background: #666d72;
+  border-radius: 20px;
 }
 .footer-p {
   text-align: center;
@@ -328,11 +375,44 @@ th {
 
 @media (max-width: 770px) {
   .cont {
-    width: 259vw;
+    width: 8.33%;
   }
-  .header-top {
-    display: flex;
-    align-items: center;
+  .cont {
+    width: 16.66%;
+  }
+  .cont {
+    width: 25%;
+  }
+  .cont {
+    width: 33.33%;
+  }
+  .cont {
+    width: 41.66%;
+  }
+  .cont {
+    width: 50%;
+  }
+  .cont {
+    width: 58.33%;
+  }
+  .cont {
+    width: 66.66%;
+  }
+  .cont {
+    width: 75%;
+  }
+  .cont {
+    width: 83.33%;
+  }
+  .cont {
+    width: 91.66%;
+  }
+  .cont {
+    width: 100%;
+  }
+}
+/* .header-top {
+   margin-right: 20px;
   }
   .navbar {
     width: 100%;
@@ -345,5 +425,4 @@ th {
   .navbar-1 ul {
     margin: 25px;
     width: 10%;
-  }
-}
+  } */
