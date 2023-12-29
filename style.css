@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
-
 body {
   font-family: "Roboto", sans-serif;
   margin: 0px;
@@ -25,10 +24,8 @@ html {
 .header-top a {
   text-decoration: none;
 }
-
 /* ------------- is start navbar ----------------------
 ---------------------------------------------------- */
-
 .navbar {
   width: 100%;
   height: 709px;
@@ -36,7 +33,9 @@ html {
   background-repeat: no-repeat;
   background-position: center;
 }
-
+.zoomimg:hover{
+  transform: scale(1.1);
+}
 .left a {
   color: black;
   font-weight: bold;
@@ -47,7 +46,6 @@ html {
   display: flex;
   align-items: center;
 }
-
 .navbar-1 ul {
   list-style: none;
   display: flex;
@@ -65,6 +63,7 @@ html {
 }
 a:hover {
   color: #9aa4a7;
+  text-decoration: underline;
 }
 .navbar-1 li::before {
   content: "";
@@ -78,7 +77,6 @@ a:hover {
 .navbar-1 li:first-child::before {
   border-left: none;
 }
-
 /* <!-------------------- Header- Hero section -------------
 -----------------------------------------------------------> */
 
@@ -93,6 +91,7 @@ a:hover {
   font-size: 15px;
   font-weight: bold;
 }
+
 .header h1 {
   font-size: 57px;
   margin: 0px;
@@ -110,50 +109,60 @@ a:hover {
   width: 391px;
   color: #25465f;
 }
+
 .bottom-right {
   float: left;
   width: 386px;
   color: #25465f;
 }
+
 .bottom-left p {
   font-size: 17px;
   margin-bottom: 37px;
 }
+
 .bottom-right p {
   font-size: 17px;
   margin-bottom: 37px;
 }
+
 /* --------------------------------------------------  paneal-1  ---------------------------------------------------------
 ------------------------------------------------------------------------------------------------------------------------ */
 .panel {
   background-color: white;
 }
+
 .Tag-left {
   float: left;
   color: #5f778a;
   margin-left: 14px;
 }
+
 .box-div {
   border: 16px solid #edeff0;
   float: right;
   margin-top: 50px;
 }
+
 .Tag-right {
   padding: 35px 48px;
   color: #333333;
 }
+
 .Tag-left p {
   width: 666px;
   line-height: 28px;
   font-size: 17px;
   color: #25465f;
 }
+
 .icons button {
   margin: 19px 82px;
   background-color: white;
   border: none;
   font-size: 16px;
 }
+
 .icons-1 button {
   background-color: white;
   border: none;
@@ -180,6 +189,7 @@ a:hover {
   color: #25465f;
   line-height: 26px;
 }
+
 /* 
 <!-- --------------------------------------------------  paneal-3  ---------------------------------------------------------
 ---------------------------------------------------------------------------------------------------------------> */
@@ -187,15 +197,18 @@ a:hover {
 .panel-3 {
   background-color: #ffffff;
 }
+
 .sec {
   align-items: center;
   display: flex;
   border-bottom: #1a2f4c;
 }
+
 .left-container {
   color: #425f74;
   margin-left: 105px;
 }
+
 .left-container button {
   background-color: #3f78e0;
   color: white;
@@ -203,24 +216,29 @@ a:hover {
   margin: 17px 0px;
   padding-right: 55px;
 }
+
 .get-btn:hover {
   background-color: #7396d6;
   color: #e7e7e7d2;
 }
+
 .line {
   background-color: #f3f7ff;
   height: 35px;
   text-align: center;
   line-height: 33px;
 }
+
 /* <!-- --------------------------------------------------  paneal-4  ---------------------------------------------------------
 -----------------------------------------------------------------------------------------------------> */
 .panel-4 {
   background-color: #ffffff;
 }
+
 .sec-1 {
   height: 391px;
 }
+
 .grid-container-1 {
   display: flex;
   color: #25465f;
@@ -228,9 +246,11 @@ a:hover {
   line-height: 23px;
   gap: 48px;
 }
+
 .grid-item-1 h1 {
   font-size: 22px;
 }
+
 .grid-item-1 img {
   width: 228px;
 }
@@ -241,6 +261,7 @@ a:hover {
 .panel-5 {
   background-color: #f3f7ff;
 }
+
 .sec-2 {
   display: flex;
 }
@@ -265,6 +286,7 @@ th {
   text-align: justify;
   font-weight: unset;
 }
+
 /* <!-- --------------------------------------------------  paneal-6  ---------------------------------------------------------
 --------------------------------------------------------------------------------------------------------------------------------> */
 
@@ -273,16 +295,19 @@ th {
   width: 100%;
   background-image: url(Images/Map.png);
 }
+
 .Map {
   text-align: center;
   font-size: 25px;
   color: #1f5fd3;
   line-height: 0px;
 }
+
 .Map-btn {
   text-align: center;
   color: white;
 }
+
 .btn-1 {
   padding: 16px 31px;
   margin: 26px 21px;
@@ -290,12 +315,14 @@ th {
   background-color: #1f5fd3;
   border: none;
 }
+
 .btn-2 {
   padding: 16px 20px;
   color: white;
   background-color: #1f5fd3;
   border: none;
 }
+
 .btn-1:hover {
   background-color: #7396d6;
   color: #e7e7e7d2;
@@ -331,21 +358,21 @@ th {
   color: #25465f;
 }
 .footer-2 :hover {
-  color: #edf0f4;
+  color: skyblue;
 }
 .footer-3 a {
   text-decoration: none;
   color: #25465f;
 }
 .footer-3 :hover {
-  color: #edf0f4;
+  color: skyblue;
 }
 .footer-4 a {
   text-decoration: none;
   color: #25465f;
 }
 .footer-4 :hover {
-  color: #edf0f4;
+  color: skyblue;
 }
 /* <!------------------------------------------------- footer social media  is start -----------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------------------> */
@@ -365,8 +392,4 @@ th {
   color: #8f979d;
   font-size: 12px;
 }
-
-/*--------------------------------------------- Responsive website Layout start ---------------------------------------------------
----------------------------------------------------------------------------------------------------------------------------*/
-
 
